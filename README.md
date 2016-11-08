@@ -16,6 +16,7 @@ Access: ssh -i ~/.ssh/udacity_key.rsa root@35.160.24.80 -p 2200
 
 ## Configuration changes
 -------------------------
+
 ### Adding user
 1. Create user 'grader'
         adduser grader
@@ -26,6 +27,7 @@ Access: ssh -i ~/.ssh/udacity_key.rsa root@35.160.24.80 -p 2200
         ssh-keygen in ~/.ssh/grader
 4. Copy the SSH key in authorized_keys file
         store file in /home/grader/.ssh/authorized_keys
+        
 ### Change default SSH port to 2200
 1. Configure /etc/ssh/sshd_config
         set port from 22 to 2200
