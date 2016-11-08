@@ -31,15 +31,18 @@ Access: ssh -i ~/.ssh/udacity_key.rsa root@35.160.24.80 -p 2200
 ### Change default SSH port to 2200
 1. Configure /etc/ssh/sshd_config
         set port from 22 to 2200
+        
 ### Set RemoteRootLogin to No
 1. Configure /etc/ssh/sshd_config
         set RemoteRootLogin from without-password to No
     Resource: <https://mediatemple.net/community/products/dv/204643810/how-do-i-disable-ssh-login-for-the-root-user>
+    
 ### Update and upgrade existing packages
 1. update packages file to latest package versions
         sudo apt-get update
 2. Upgrade existing packages
         sudo apt-get upgrade
+        
 ### Configure UFW firewall
 1. Allow SSH port 2200, HTTP port 80, NTP port 123
         sudo ufw allow 2200/tcp
@@ -48,10 +51,12 @@ Access: ssh -i ~/.ssh/udacity_key.rsa root@35.160.24.80 -p 2200
 2. Activate UFW firewall
         sudo ufw enable
     Reference: Udacity
+    
 ### Configure Time to UTC
 1. Set timezone to UTC
         sudo dpkg-reconfigure tzdata
     Reference: <http://unix.stackexchange.com/questions/110522/timezone-setting-in-linux>
+    
 ### Python-Flask application deployment
 1. Git clone <https://github.com/Vindicus/YumYumRecipes.git>
 2. rename 'main.py' file to '__init__.py'
