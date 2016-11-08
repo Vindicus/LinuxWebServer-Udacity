@@ -8,7 +8,17 @@ Configure and transform a Linux based server to a web server and host the YumYum
 IP address: <http://35.160.24.80/>  
 SSH Port: 2200  
 Remote User: `grader`
-Remote Password: 'grader'
+Remote Password: `grader`
+
+## Postgresql Access
+---------------------
+### User1 Access:
+User: `postgres`
+password: `postgres`
+
+### User2 Access:
+User: `cataog`
+password: `catalog`
 
 ## Remote Machine Access
 -------------------------
@@ -70,19 +80,16 @@ Access: ssh -i ~/.ssh/udacity_key.rsa root@35.160.24.80 -p 2200
 
 ## List of software installed
 ------------------------------
-1) 'sudo apt-get install' apache2
-2) 'sudo apt-get install' libapache2-mod-wsgi
-3) 'sudo apt-get install' git
-4) 'sudo apt-get install' python-pip
-5) 'pip install' virtualenv
-6) 'pip install' Flask
-7) 'pip install'  oauth2client
-8) 'pip install'  requests
-9) 'pip install'  httplib2
-10) 'sudo apt-get install' postgresql
-11) 'pip install' sqlalchemy
-12) 'pip install' psycopg2
-13) 'pip install' python-psycopg2
-
-
-
+1. 'sudo apt-get install' apache2
+2. 'sudo apt-get install' libapache2-mod-wsgi
+3. 'sudo apt-get install' git
+4. 'sudo apt-get install' python-pip
+5. 'pip install' virtualenv
+6. 'pip install' Flask
+7. 'pip install'  oauth2client
+8. 'pip install'  requests
+9. 'pip install'  httplib2
+10. 'sudo apt-get install' postgresql
+11. 'pip install' sqlalchemy
+12. 'pip install' psycopg2
+13. 'pip install' python-psycopg2
