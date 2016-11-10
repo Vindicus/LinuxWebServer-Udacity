@@ -23,6 +23,7 @@ password: `catalog`
 ## Remote Machine Access
 -------------------------
 Access: ssh -i ~/.ssh/udacity_key.rsa root@35.160.24.80 -p 2200
+RSA Passphrase: `12345678`
 
 ## Configuration changes
 -------------------------
