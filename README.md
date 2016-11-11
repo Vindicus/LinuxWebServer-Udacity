@@ -8,7 +8,7 @@ Configure and transform a Linux based server to a web server and host the YumYum
 IP address: <http://35.160.24.80/>  
 SSH Port: 2200  
 Remote User: `grader`
-Remote Password: `grader`
+Remote Password: `graderUd@c1TyP@sS_`
 
 ## Postgresql Access
 ---------------------
